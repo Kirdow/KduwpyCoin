@@ -1,0 +1,6 @@
+# .gitignore
+# Log files
+**.log
+
+# Python Cache Files
+__pycache__/

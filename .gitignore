@@ -4,3 +4,6 @@
 
 # Python Cache Files
 __pycache__/
+
+# Vim Cache Files
+.*~

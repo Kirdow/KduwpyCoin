@@ -1,4 +1,4 @@
-# KduwpyCoin [![License](https://img.shields.io/github/license/Kirdow/KduwpyCoin.svg)](https://github.com/Kirdow/KduwpyCoin/blob/master/LICENSE)
+# KduwpyCoin [![License][license-img]][license-file]
 Bare bones cryptocurrency demo made in Python 3.9
 
 ## About the project
@@ -17,3 +17,5 @@ As this repository is primarily just me learning cryptocurrency development and 
 [fireship-video]: https://youtu.be/qF7dkrce-mQ
 [fireship-channel]: https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA
 [fireship-code]: https://github.com/fireship-io/node-blockchain
+[license-img]: https://img.shields.io/github/license/Kirdow/KduwpyCoin.svg
+[license-file]: https://github.com/Kirdow/KduwpyCoin/blob/master/LICENSE

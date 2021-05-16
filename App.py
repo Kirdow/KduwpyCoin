@@ -8,4 +8,9 @@ class App:
         pass
 
     def run(self):
-        print("Hello, World!")
+        kirdow = Wallet()
+        bob = Wallet()
+        alice = Wallet()
+        kirdow.sendMoney(50, bob.publicKey)
+        bob.sendMoney(23, alice.publicKey)
+        alice.sendMoney(5, bob.publicKey)

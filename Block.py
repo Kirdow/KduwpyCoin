@@ -7,7 +7,7 @@ from random import random as frand
 class Block:
     def __init__(self, prevHash, transaction, timeStamp=None):
         self._prevHash = prevHash
-        self._transactions = [transaction]
+        self._transactions = []
         self._time = timeStamp or math.floor(time.time() * 1000.0)
 
         self.nonce = frand() * 999999999

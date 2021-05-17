@@ -7,12 +7,15 @@ import time
 
 class Chain:
     def __init__(self):
-        self.chain = [Block('', Transaction(100, 'genesis', 'kirdow'))]
+        genesis_block = Block('')
+
+        self.chain = [Block('')]
+        self.mempool = []
 
     def lastBlock(self):
         return self.chain[-1]
 
-    def mine(self, nonce):
+    def mine(self, miner, nonce):
         solution = -1
         print("Mining...")
 
